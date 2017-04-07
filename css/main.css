@@ -1,44 +1,11 @@
 html {
-  font-family: Georgia, serif;
+  font-family: "Merriweather", serif;
 }
 
-main {
-  background-color: #f2f2f2;
+td {
+  border: 1px solid #000;
 }
 
-tbody th {
-  font-weight: normal;
-  font-style: italic;
-}
-
-tfoot {
-  font-weight: bold;
-}
-
-.year {
-  width: 7em;
-}
-
-.distance {
-  width: 6em;
-}
-
-.notes {
-  width: 16em;
-}
-
-table {
-  min-width: 50em;
-}
-
-@media only screen and (min-width: 60em) {
-
-  .table-wrap {
-    overflow: visible;
-  }
-
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #e2e2e2;
+td {
+  height: 9.8rem;
 }
